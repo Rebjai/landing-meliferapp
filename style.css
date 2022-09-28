@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  src: url('./Segoe-UI-Font/SEGOEUI.TTF');
+}
+
+h1{
+  font-size: min(15vw, 6rem);
+  margin-bottom: 0;
+}
+h2{
+  
+  font-size: min(5vw, 2rem);
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.rounded-full{
+  border-radius: 100%;
+}
+.logo{
+  max-width: min(100%, 500px);
+}
+.max-w{
+  max-width: min(30%, 350px);
+}
+.flex{
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.justfy-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.content-center{
+  align-content: center;
+}
+.color{
+  background-color: red;
+}
+.inline-block{
+  display: inline-block;
+}
+.text-center{
+  text-align: center;
+}
+.text-yellow{
+  color: #ffc013;
+}
+.m-y{
+  margin-bottom: 30px;
+}
+.relative{
+  position: relative;
+}
+.hover-scale{
+  transition: transform ease-in 200ms;
+}
+.hover-scale:hover{
+  transform: scale(1.1);
+}
+.bee-1 {
+  /* position: absolute; */
+  /* top: 15px; */
+  /* left: 40px; */
+  /* bottom: 5px; */
+  /* right: 15px; */
+  width: 100px;
+  animation: bee1 300ms infinite ease-in-out alternate ;
+  
+}
+.bee-1:hover{
+}
+
+/* @keyframes bee1 {
+  0%{
+    transform: translate(0, -0px) rotate(0deg);
+  }
+  10%{
+    transform:  translate(-40px, -60px) rotate(10deg);
+  }
+  25%{
+    transform: translate(-30px, -50px) rotate(50deg);
+  }
+  30%{
+    transform:  rotate(60deg);
+  }
+  50%{
+    transform: translate(-100px, -60px) rotate(40deg);
+  }
+  60%{
+    transform:  rotate(60deg);
+  }
+  75%{
+    transform: translate(-50px, 30px) rotate(80deg);
+  }
+  100%{
+    transform: translate(0, 0) rotate(5deg);
+  }
+} */
+
+@keyframes bee1 {
+  0%{
+    transform: rotate(8deg);
+  }
+  100%{
+    
+    transform: rotate(-8deg);
+  }
+  
+}
